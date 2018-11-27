@@ -19,7 +19,7 @@ module ``about branching`` =
                 "it's odd!"
                 
         let result = isEven 2                
-        AssertEquality result __
+        AssertEquality result 
     
     [<Koan>]
     let IfStatementsReturnValues() =
@@ -34,7 +34,7 @@ module ``about branching`` =
             else
                 "no problem here"
 
-        AssertEquality result __
+        AssertEquality result "no problem here"
 
     [<Koan>]
     let BranchingWithAPatternMatch() =
